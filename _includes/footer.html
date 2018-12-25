@@ -1,4 +1,16 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
+<div class="container-fluid footer">
+    <footer>
+        <div class="row">
+            <div class="col-12 col-sm-3"><img class="footer-logo"  src="assets/images/logo.png"  alt="Soundbrenner"></div>
+            <div class="col-12 col-sm-9 footer-text-col">
+                <a href="#" class="footer-text">About</a>
+                <a href="#" class="footer-text">Services</a>
+                <a href="#" class="footer-text">Contact</a>
+            </div>
+        </div>
+    </footer>
+</div> 
+<nav class="navbar navbar-light bg-light">
 {%- if site.show-style-guide %}
     <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
 {%- endif %}
