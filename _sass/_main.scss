@@ -580,7 +580,7 @@ form .submit:hover{
 
 
 .footer{
-    background-color: #BFB99E;
+    background-color: rgba(191, 184, 158, 0.3);
     padding: 5vw 10vw;
 }
 
@@ -778,6 +778,8 @@ label {
     #home-title{
         margin: 0%;
         font-size: 4vh;
+        font-weight: 3OO;
+        color: rgba(0, 0, 0, 0.6)
     }
 
     .home-info{

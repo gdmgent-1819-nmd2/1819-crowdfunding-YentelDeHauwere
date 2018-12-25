@@ -450,7 +450,7 @@ form .submit:hover {
 
 /* -------------------------------------------- FOOTER --------------------------------------------  */
 .footer {
-  background-color: #BFB99E;
+  background-color: rgba(191, 184, 158, 0.3);
   padding: 5vw 10vw; }
 
 .footer-logo {
@@ -582,7 +582,9 @@ label {
 
   #home-title {
     margin: 0%;
-    font-size: 4vh; }
+    font-size: 4vh;
+    font-weight: 3OO;
+    color: rgba(0, 0, 0, 0.6); }
 
   .home-info {
     padding-top: 0; }
