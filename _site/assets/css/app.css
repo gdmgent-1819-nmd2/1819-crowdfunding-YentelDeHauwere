@@ -374,7 +374,7 @@ form .submit:hover {
   margin-top: 10%; }
 
 .jumbotron {
-  background-image: url(assets/images/background.jpg);
+  background-image: url(assets/images/back);
   height: 92vh;
   background-repeat: no-repeat;
   background-size: cover;
