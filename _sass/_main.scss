@@ -32,7 +32,7 @@ body html{
     background-color: #18171C;
     color: white;
     width: 100%;
-    padding: 3%;
+    padding: 30px 40px;
     align-items: center;
 }
 
@@ -43,10 +43,10 @@ body html{
 .subscribe {
     text-align: center;
     align-items: center;
-    height: 100vh;
     display: flex;
     padding-top: auto;
     padding-bottom: auto;
+    padding: 100px 0px;
 }
 
 
@@ -196,11 +196,11 @@ p{
 }
 
 .thefour H5{
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 .thefour h6{
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 300;
 }
 
@@ -427,7 +427,7 @@ form .submit:hover{
     width: 560px;
     height: 315px;
     max-width: 100%;
-    margin: 50px 0px
+    margin: 30px 0px
 }
 
 .img-fluid{
@@ -615,6 +615,7 @@ form .submit:hover{
 .payment .col-12 {
     -ms-flex: 50%; 
     flex: 50%;
+    margin-bottom: 100px;
 }
   
 .container {
@@ -659,7 +660,7 @@ label {
 
 
 .payment-title{
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .payment{
@@ -667,7 +668,7 @@ label {
 }
 
 .reminders{
-    margin: 100px 0;
+    margin-top: 50px;
 }
 
 

@@ -25,7 +25,7 @@ body html {
   background-color: #18171C;
   color: white;
   width: 100%;
-  padding: 3%;
+  padding: 30px 40px;
   align-items: center; }
 
 .title {
@@ -34,10 +34,10 @@ body html {
 .subscribe {
   text-align: center;
   align-items: center;
-  height: 100vh;
   display: flex;
   padding-top: auto;
-  padding-bottom: auto; }
+  padding-bottom: auto;
+  padding: 100px 0px; }
 
 .home-info {
   padding: 30px;
@@ -152,10 +152,10 @@ p {
   font-weight: 500; }
 
 .thefour H5 {
-  font-size: 5vw; }
+  font-size: 4vw; }
 
 .thefour h6 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 300; }
 
 .models {
@@ -333,7 +333,7 @@ form .submit:hover {
   width: 560px;
   height: 315px;
   max-width: 100%;
-  margin: 50px 0px; }
+  margin: 30px 0px; }
 
 .img-fluid {
   max-height: 500px; }
@@ -471,7 +471,8 @@ form .submit:hover {
 
 .payment .col-12 {
   -ms-flex: 50%;
-  flex: 50%; }
+  flex: 50%;
+  margin-bottom: 100px; }
 
 .container {
   padding: 5px 20px 15px 20px; }
@@ -506,13 +507,13 @@ label {
   text-align: center; }
 
 .payment-title {
-  margin: 100px 0; }
+  margin: 50px 0; }
 
 .payment {
   padding: 0; }
 
 .reminders {
-  margin: 100px 0; }
+  margin-top: 50px; }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
