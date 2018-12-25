@@ -462,6 +462,13 @@ form .submit:hover {
 .footer-text {
   margin: 0px 10px; }
 
+.footer-text-col a {
+  color: white; }
+
+.footer-text-col a:hover {
+  border-bottom: 1px solid white;
+  margin-bottom: -1px; }
+
 /* -------------------------------------------- CHECKOUT --------------------------------------------  */
 .payment .row {
   display: -ms-flexbox;
