@@ -9,7 +9,7 @@ body html {
   margin: 0;
   padding: 0; }
 
-body #donate {
+#donate {
   background-color: var(--black); }
 
 .container-fluid {
@@ -20,7 +20,7 @@ body #donate {
   margin-top: 25vh; }
 
 .fullscreen {
-  height: 92vh;
+  min-height: 92vh;
   align-items: center; }
 
 .video {
@@ -453,7 +453,7 @@ form .submit:hover {
 
 /* -------------------------------------------- FOOTER --------------------------------------------  */
 .footer {
-  background-color: rgba(191, 184, 158, 0.3);
+  background-color: #F9F8F5;
   padding: 2vw 5vw;
   color: #2D3D41; }
 
@@ -482,10 +482,17 @@ hr {
   border-right: 1px solid rgba(0, 0, 0, 0.1); }
 
 footer h2 {
-  font-weight: 200; }
+  font-weight: 200;
+  font-size: 20px; }
 
 footer h2 b {
   font-weight: 400; }
+
+footer li {
+  font-size: 14px; }
+
+footer p {
+  font-size: 14px; }
 
 #copyright {
   font-size: 12px;
@@ -503,8 +510,8 @@ footer .col-12, .col-10 {
 .fa {
   padding-top: 20px;
   padding-right: 20px;
-  font-size: 30px;
-  width: 30px;
+  font-size: 20px;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%; }
