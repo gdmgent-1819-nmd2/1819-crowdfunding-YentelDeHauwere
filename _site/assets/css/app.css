@@ -470,8 +470,8 @@ form .submit:hover {
   color: white; }
 
 .footer-text-col a:hover {
-  color: rgba(191, 184, 158, 0.4);
-  transition: .7; }
+  color: white;
+  transition: 0.7; }
 
 hr {
   width: 40vw;
