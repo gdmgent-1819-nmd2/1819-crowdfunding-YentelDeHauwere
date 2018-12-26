@@ -380,7 +380,7 @@ form .submit:hover {
   margin-top: 10%; }
 
 .jumbotron {
-  background-image: url("assets/images/back.png");
+  background-image: url("../../assets/images/back.png");
   height: 92vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -454,7 +454,7 @@ form .submit:hover {
 /* -------------------------------------------- FOOTER --------------------------------------------  */
 .footer {
   background-color: rgba(191, 184, 158, 0.3);
-  padding: 5vw;
+  padding: 2vw 5vw;
   color: #2D3D41; }
 
 .footer-logo {
