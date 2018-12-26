@@ -500,6 +500,73 @@ form .submit:hover{
 }
 
 
+/* -------------------------------------------- CHECKOUT --------------------------------------------  */
+
+.payment .row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+  
+.payment .col-12 {
+    -ms-flex: 50%; 
+    flex: 50%;
+    margin-bottom: 100px;
+}
+  
+.container {
+    padding: 5px 20px 15px 20px;
+}
+  
+.payment input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.expire{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: white;
+}
+  
+.payment .col-4{
+    text-align: center;
+}
+
+.billing-info, .cc-info{
+    margin-bottom: 100px;
+}
+
+.justify-content-center .col-3{
+    text-align: center;
+}
+
+.div-button{
+    text-align: center;
+}
+
+
+.payment-title{
+    margin: 50px 0;
+}
+
+.payment{
+    padding: 0;
+}
+
+.reminders{
+    margin-top: 50px;
+}
 
 
 
@@ -693,77 +760,7 @@ footer p{
 }
 
 
-
-/* -------------------------------------------- CHECKOUT --------------------------------------------  */
-
-.payment .row {
-    display: -ms-flexbox; 
-    display: flex;
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap;
-}
-  
-.payment .col-12 {
-    -ms-flex: 50%; 
-    flex: 50%;
-    margin-bottom: 100px;
-}
-  
-.container {
-    padding: 5px 20px 15px 20px;
-}
-  
-.payment input[type=text] {
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    padding: 15px;
-}
-
-label {
-    margin-bottom: 10px;
-    display: block;
-}
-
-.expire{
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 2px;
-    background-color: white;
-}
-  
-.payment .col-4{
-    text-align: center;
-}
-
-.billing-info, .cc-info{
-    margin-bottom: 100px;
-}
-
-.justify-content-center .col-3{
-    text-align: center;
-}
-
-.div-button{
-    text-align: center;
-}
-
-
-.payment-title{
-    margin: 50px 0;
-}
-
-.payment{
-    padding: 0;
-}
-
-.reminders{
-    margin-top: 50px;
-}
-
-
-
+/* --------------------------------------------------------------------------------------------------------  */
   
   /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
@@ -921,6 +918,10 @@ label {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
     }
 
+    .nav-brand{
+        display: none;
+    }
+
 
 
 
@@ -962,13 +963,6 @@ label {
     .copyright-box{
         text-align: center;
     }
-
-   
-
-
-
-   
-
 
 }
 
