@@ -326,7 +326,10 @@ form .submit {
 
 form .submit:hover {
   color: white;
-  background-color: var(--beige); }
+  background-color: var(--beige);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
 
 .btn-center {
   text-align: center; }

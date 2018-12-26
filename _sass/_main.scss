@@ -311,7 +311,7 @@ p{
 .button:hover {
     background-color: var(--blue);
     color:white;
-     -moz-transform: scale(1.1);
+    -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -412,6 +412,9 @@ form .submit{
 form .submit:hover{
     color: white;
     background-color: var(--beige);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
