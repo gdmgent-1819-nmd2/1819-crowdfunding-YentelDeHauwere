@@ -581,7 +581,8 @@ form .submit:hover{
 
 .footer{
     background-color: rgba(191, 184, 158, 0.3);
-    padding: 5vw 10vw;
+    padding: 5vw;
+    color: #2D3D41;
 }
 
 .footer-logo{
@@ -602,12 +603,78 @@ form .submit:hover{
 }
 
 .footer-text-col a:hover{
-    border-bottom: 1px solid white;
-    margin-bottom: -1px;
+    color: rgba(191, 184, 158, 0.4);
+    transition: .7;
 }
 
+hr{
+    width: 40vw;
+    margin-right: 0;
+    
+}
 
+.footer-box{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
 
+footer h2{
+    font-weight: 200;
+}
+
+footer h2 b{
+    font-weight: 400;
+}
+
+#copyright{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#tags{
+    font-weight: 400
+}
+
+#footer-tags{
+    font-weight: 200
+}
+
+footer .col-12, .col-10{
+    padding: 20px 40px;
+}
+
+.fa {
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    color: var(--beige);
+    text-decoration: none;
+  }
+
+  .icons a{
+      color: var(--blue);
+  }
+  
+  p{
+      font-weight: 500;
+  }
+
+  .social-media{
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .style-guide{
+      color: var(--blue);
+      font-weight: 100;
+
+  }
 
 
 
@@ -828,6 +895,20 @@ label {
        
     }
 
+    .social-media{
+        text-align: center;
+    }
+
+    .footer-box{
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+
+
+
+
 
 
 
@@ -862,6 +943,11 @@ label {
         flex-direction: row;
     }
 
+    .copyright-box{
+        text-align: center;
+    }
+
+   
 
 
 
