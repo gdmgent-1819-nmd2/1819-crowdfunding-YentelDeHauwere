@@ -9,6 +9,9 @@ body html {
   margin: 0;
   padding: 0; }
 
+body #donate {
+  background-color: var(--black); }
+
 .container-fluid {
   margin: 0;
   padding: 0; }
@@ -93,7 +96,7 @@ body html {
   margin-top: 20vh; }
 
 .models-core:nth-child(2) {
-  border-left: 1px solid var(--brown); }
+  border-left: 1px solid rgba(150, 118, 87, 0.5); }
 
 ul {
   list-style-type: none;
