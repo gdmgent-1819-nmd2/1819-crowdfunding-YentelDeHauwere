@@ -7,6 +7,8 @@
     <title>
             {{ page.title }}
     </title>
+    <script src="_sass/script.js"></script>
+    <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    <!--link rel="stylesheet" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css"-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link href="_sass/_main.scss" rel="stylesheet " type="text/css ">
@@ -14,47 +16,77 @@
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
 </head>
 <body>
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-light" >
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="{{ site.baseurl }}/home.html">Home</a>
+                        <a class="nav-item nav-link" href="{{ site.baseurl }}/info.html">Info</a>
+                    <div class="nav-brand">
+                        <a class="navbar-brand" href="{{ site.baseurl }}/home.html">
+                        <img class="logo"  src="assets/images/logo.png"  alt="Soundbrenner">
+                        </a>
+                    </div>
+                        <a class="nav-item nav-link" href="{{ site.baseurl }}/donate.html">Donate</a>
+                        <a class="nav-item nav-link" href="{{ site.baseurl }}/subscribe.html">Log In</a>
+                    </div>
+                </div>
+            </nav>
 
-    <div class="container-fluid footer">
-        <footer>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-4 copyright-box"><h2> <b> Yentel</b> <br>De Hauwere</h2> <br> <div id="copyright">Copyright © 2018 Don't steal please</div></div>
-                <div class="col-10 col-sm-7 col-md-5 footer-box">
-                    <div class="row">
-                        <div class="col-6">
-                            <ul id="tags">
-                                <li>WEBDESIGN</li>
-                                <li>DESIGN</li>
-                                <li>CROWDFUNDING</li>
-                                <li>TYPOGRAPHY</li>
-                                <li>UX</li>
-                            </ul>
+            <div class="container-fluid">
+                    <div class=content id="content">
+                        <div class="row  home-info">
+                                <div class="col-12">
+                                    <h2 id="home-title"><i>Take Your Practice & Performance To The Next Level</i></h2>
+                                  <div class="row justify-content-center">
+                                    <div class="col-12 col-sm-4 ">
+                                            <img src="assets/images/app.png" alt="Soundbrenner app" class="img-fluid">
+                                    </div>
+                                    <div class="col-12 col-sm-5 col-lg-3 home-info-second">
+                                      <h6><b> Metronome, Magnetic Tuner, Decibel Meter, Watch</b> 
+                                            your fundamental music tools made smarter, reliable, and always with you.</h6> <br>
+                                      <p>The Soundbrenner Core combines the accuracy of professional music tools with the convenience of wearable technology. Seamlessly integrated with a watch, you will always have your tools with you, whether you’re practicing at home, recording in the studio, or even performing on stage. The Core reimagines what modern-day music tools can do for your musical development.</p>
+                                      <a href="info.html"><button class="button brown"><span>More Info</span></button></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                
+                        <div class="row">
+                            <div class= "col video">
+                                <h2>Begin Your Journey With The<b> Soundbrenner Core</b></h2>
+                                <p>Finally a metronome that you’ll actually love using! The Soundbrenner Pulse is the metronome for the 21st century – smart, wearable and powered by vibrations.</p>
+                                <iframe class="ytvideo" src="https://www.youtube.com/embed/E_nLhiYdfuY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                                <a href="donate.html"><button class="button white"><span>Donate</span></button></a>
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <ul id="footer-tags">
-                                <li>About</li>
-                                <li>Contact</li>
-                                <li>Terms Of Service</li>
-                                <li>Privacy Policy</li>
-                                <li><a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="style-guide">Style Guide</a></li>
-                            </ul>  
-                        </div>              
+                
+                        <div class="row subscribe">
+                            <div class="col">
+                            <div class="subscribe-text">
+                                <h5><i>SUBSCRIBE TO</i></h5>
+                                <h1><b>Soundbrenner</b> Core</h1>
+                                <p>Get the latest news and stories from <b>Soundbrenner</b></p>
+                            </div>
+                                
+                                <div class="contact-form">
+                                    <form id="contact-form" method="post" action="">
+                                        <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+                                        <input name="name" type="text" class="form-control" placeholder="Email" required><br>
+                                        <input type="sumbit" class="form-control submit" value= "Submit">
+                
+                                </div>
+                                
+                            </div>
+                        </div>
+                
+                        
+                
                     </div>
-                </div>
-                <div class="col-12 col-sm-5 col-md-3 social-media">
-                    <p>Follow Us</p>
-                    <div class="icons">
-                        <a href="https://www.facebook.com" class="fa fa-facebook"></a> 
-                        <a href="https://twitter.com/?lang=nl" class="fa fa-twitter"></a> 
-                        <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                        <a href="https://www.pinterest.com" class="fa fa-pinterest"></a>
                     </div>
-                </div>
-                </div>
-        </footer>
-    </div> 
-
-
+                
 </body>
 </html>
 
