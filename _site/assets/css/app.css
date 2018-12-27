@@ -389,8 +389,7 @@ form .submit:hover {
   background-size: cover;
   color: white;
   position: relative;
-  background-position: right;
-  background-attachment: fixed; }
+  background-position: right; }
 
 /* -------------------------------------------- CHECKOUT --------------------------------------------  */
 .payment .row {
