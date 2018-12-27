@@ -92,7 +92,25 @@
                     <form id="contact-form" method="post" action="get">
                         <input name="name" type="text" class="form-control" placeholder="Name" required><br>
                         <input name="Email" type="text" class="form-control" placeholder="Email" required><br>
-                        <input type="sumbit" class="form-control submit" value= "Submit">
+                        <a href="payment.html"><button class="button brown" data-toggle="modal" data-target="#exampleModal"><span>PROCEED</span></button></a>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Thanks for subscribing</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  You will receive a confirmation mail shortly!
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="home.html"><button class="button confirmation-btn"><span>Go to Home</span></button></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
 
                 </div>
                 
