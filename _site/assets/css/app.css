@@ -444,6 +444,10 @@ label {
 .reminders {
   margin-top: 50px; }
 
+.confirmation-btn {
+  margin: 0;
+  margin-top: 0; }
+
 /* -------------------------------------------- NAVBAR --------------------------------------------  */
 .navbar-nav {
   display: flex;
