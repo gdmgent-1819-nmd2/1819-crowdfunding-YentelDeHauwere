@@ -334,6 +334,18 @@ form .submit:hover {
 .btn-center {
   text-align: center; }
 
+.progress {
+  position: fixed;
+  z-index: 2147483644;
+  width: 90vw;
+  margin: 0 5vw 2vw;
+  bottom: 0;
+  border-radius: 50px; }
+
+.progress-bar {
+  width: 70%;
+  background-color: var(--beige); }
+
 /* -------------------------------------------- MEDIA --------------------------------------------  */
 .ytvideo {
   width: 560px;
